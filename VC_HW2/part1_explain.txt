@@ -1,0 +1,9 @@
+Part 1
+A.
+The multiplication in the frequency domain is convolution in the spatial domain. 
+According duality, the constant in frequency domain is a spike (delta function) in the 
+spatial domain. So the resulting image after doubling the magnitude of frequency should 
+look like the original image convolve with delta function. The result is shown in the plot
+
+B. 
+Both magnitude and phase plot shows the similar pattern as the original image. If repeating the original image from both vertical and horizontal direction, we can observe that the white strips on both diagonals are perfect aligned. Therefore, the frequency of both diagonals dominates magnitude and phase plots.
